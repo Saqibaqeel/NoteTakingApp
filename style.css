@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main{
+    height: 100%;
+    min-height: 100vh;
+    background: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main .note{
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+    background: #fff;
+    margin-top: 85px;
+}
+.toolBar{
+    background: #000;
+    width: 100%;
+    padding: 8px;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+}
+.toolBar i{
+    padding: 0px 3px;
+    cursor: pointer;
+}
+.note .Area{
+    padding: 0px 8px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    resize: none;
+}
+ .Area:focus{
+
+
+}
+.AddNotes{
+    width: 74px;
+    background: black;
+    color: white;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    height: 34px;
+    border-radius: 7px;
+    cursor: pointe
+    
+}
